@@ -597,7 +597,7 @@ if __name__ == "__main__":
     # Load data, interpolate fields, and define common grid
     # Generate initial positions for electrons and protons
     initial_positions_electron, initial_positions_proton = (
-    generate_initial_positions(num_electrons=1000,num_protons=1000,R1=6.6,R2=9.0, phi1=0., phi2=2.0*np.pi)
+    generate_initial_positions(num_electrons=10,num_protons=10,R1=6.6,R2=9.0, phi1=0., phi2=2.0*np.pi)
     )
 
     num_electrons = len(initial_positions_electron)
