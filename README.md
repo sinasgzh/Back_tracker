@@ -34,10 +34,14 @@ pip install numpy pandas matplotlib scipy h5py
 python particle_tracking.py
 ## Input Files
 Ensure the field data file (datapot.dat) is placed in the directory:
-/content/drive/MyDrive/ColabNotebooks/RCM_out/
+/../RCM_out/
+
+The field data should inlcude:
+XMIN  YMIN  VM  BMIN  V  PV_gamma  Vx_exb  Vy_exb  
+
 ## Output
-The processed data, particle trajectories, and plots are saved in the directory:
-/content/drive/MyDrive/ColabNotebooks/BT_out/
+The processed data, particle trajectories, and plots are saved in the desired directory:
+/../BT_out/
 # Code Overview
 ## Key Functions
 **generate_initial_positions:**
